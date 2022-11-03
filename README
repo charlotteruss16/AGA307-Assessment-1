@@ -1,0 +1,7 @@
+echo "# CRussell_AGA307-InClass" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/charlotteruss16/CRussell_AGA307-InClass.git
+git push -u origin main
