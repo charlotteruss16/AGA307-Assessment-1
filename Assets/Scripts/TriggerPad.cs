@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TriggerPad : MonoBehaviour
 {
-    public GameObject sphere;
+    public GameObject sphere;  //The object we wish to change
     private void OnTriggerEnter(Collider other)
     {
         //change the colour of the sphere
