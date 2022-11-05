@@ -45,6 +45,10 @@ public class GameManager : Singleton<GameManager>
             case Difficulty.Hard:
                 scoreMultiplyer = 3;
                 break;
+            default:
+                scoreMultiplyer = 1;
+                break;
+
         }
     }
     

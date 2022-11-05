@@ -67,9 +67,12 @@ public class EnemyManager : Singleton<EnemyManager>
     /// </summary>
     void SpawnEnemy()
     {
+        //Get random int between 0 and our enemyTypes Length
         int enemyNumber = Random.Range(0, enemyTypes.Length);
         int spawnPoint = Random.Range(0, spawnPoints.Length);
+        //Instatliate the random element of our enemyTypes array at the postion and rotation of the current spwanPoint [i] in the loop
         GameObject enemy = Instantiate(enemyTypes[enemyNumber], spawnPoints[spawnPoint].position, transform.rotation, transform);
+        //Adds the newly created enemy to our enemies list
         enemies.Add(enemy);
     }
 
