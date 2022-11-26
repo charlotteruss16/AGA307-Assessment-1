@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032111492050583
-    m_Hash: 224939342
+      ticks: 638050162023095509
+    m_Hash: 3837330596
   m_LockFileStatus:
     m_FilePath: C:/Users/crussell2/AGA307-Assessment-1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032128444564718
-    m_Hash: 3173697591
+      ticks: 638050162023105485
+    m_Hash: 1251442887
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
